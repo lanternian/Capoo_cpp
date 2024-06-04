@@ -1,0 +1,16 @@
+capoo_efx_bot.png
+size:912,360
+filter:Linear,Linear
+scale:0.5
+efx_bump_1
+bounds:825,53,304,55
+rotate:90
+efx_bump_2
+bounds:882,283,74,28
+rotate:90
+efx_bump_4
+bounds:825,7,56,44
+fire_01
+bounds:423,18,400,339
+fire_02
+bounds:2,2,419,355

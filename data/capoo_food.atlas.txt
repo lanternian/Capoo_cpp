@@ -1,0 +1,7 @@
+capoo_food.png
+size:224,128
+filter:Linear,Linear
+scale:0.5
+01
+bounds:2,2,217,122
+offsets:0,1,217,123
