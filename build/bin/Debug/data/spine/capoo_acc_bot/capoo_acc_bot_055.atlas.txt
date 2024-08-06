@@ -1,6 +1,0 @@
-capoo_acc_bot_055.png
-size:76,64
-filter:Linear,Linear
-scale:0.5
-capoo_prop_055_1
-bounds:2,2,69,60

@@ -1,5 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeParseArguments.cmake
-D:/program/windows/a/build/_deps/sfml-src/cmake/CompilerWarnings.cmake
-D:/program/windows/a/build/_deps/sfml-src/cmake/Macros.cmake
-D:/program/windows/a/build/_deps/sfml-src/src/SFML/CMakeLists.txt

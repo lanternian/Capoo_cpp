@@ -1,9 +1,0 @@
-capoo_prop_062.png
-size:264,108
-filter:Linear,Linear
-scale:0.5
-capoo_prop_062
-bounds:2,2,102,222
-rotate:90
-capoo_prop_062_1
-bounds:226,66,34,38

@@ -1,6 +1,0 @@
-capoo_prop_504.png
-size:108,168
-filter:Linear,Linear
-scale:0.5
-capoo_prop_504
-bounds:2,2,103,162

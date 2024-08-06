@@ -1,9 +1,0 @@
-capoo_hat_112.png
-size:232,120
-filter:Linear,Linear
-scale:0.5
-capoo_hat_112
-bounds:2,2,123,116
-capoo_hat_112_1
-bounds:127,11,107,100
-rotate:90

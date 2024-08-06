@@ -1,6 +1,0 @@
-capoo_clothes_501.png
-size:80,64
-filter:Linear,Linear
-scale:0.5
-capoo_clothes_501
-bounds:2,2,73,60

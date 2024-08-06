@@ -1,6 +1,0 @@
-capoo_acc_top_999.png
-size:136,116
-filter:Linear,Linear
-scale:0.5
-capoo_acc_test_01
-bounds:2,2,130,112

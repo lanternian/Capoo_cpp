@@ -1,6 +1,0 @@
-capoo_acc_body_999.png
-size:56,60
-filter:Linear,Linear
-scale:0.5
-capoo_prop_049_2
-bounds:2,2,50,54

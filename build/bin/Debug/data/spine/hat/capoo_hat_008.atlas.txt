@@ -1,6 +1,0 @@
-capoo_hat_008.png
-size:328,232
-filter:Linear,Linear
-scale:0.5
-capoo_hat_008
-bounds:2,2,324,226

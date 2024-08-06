@@ -1,6 +1,0 @@
-capoo_back_105.png
-size:124,84
-filter:Linear,Linear
-scale:0.5
-capoo_back_105
-bounds:2,2,118,78
