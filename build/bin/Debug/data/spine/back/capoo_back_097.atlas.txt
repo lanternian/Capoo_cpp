@@ -1,0 +1,14 @@
+capoo_back_097.png
+size:396,200
+filter:Linear,Linear
+scale:0.5
+capoo_back_097
+bounds:2,2,262,193
+capoo_back_097_1
+bounds:331,25,170,62
+offsets:3,3,175,65
+rotate:90
+capoo_back_097_2
+bounds:266,20,175,63
+offsets:0,0,175,65
+rotate:90

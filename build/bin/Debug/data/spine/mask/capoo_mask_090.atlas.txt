@@ -1,0 +1,6 @@
+capoo_mask_090.png
+size:124,88
+filter:Linear,Linear
+scale:0.5
+capoo_mask_090
+bounds:2,2,120,81

@@ -1,0 +1,19 @@
+capoo_basic_084.png
+	size: 512, 512
+	filter: Linear, Linear
+	scale: 0.5
+body_idle
+	bounds: 2, 167, 400, 298
+	offsets: 0, 2, 400, 300
+capoo_clothes_084
+	bounds: 2, 64, 79, 101
+face_eat
+	bounds: 404, 382, 49, 83
+foot_idle_1
+	bounds: 2, 2, 40, 60
+foot_idle_2
+	bounds: 404, 320, 40, 60
+speed_02
+	bounds: 83, 136, 99, 29
+speed_03
+	bounds: 83, 99, 65, 35

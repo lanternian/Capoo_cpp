@@ -1,0 +1,12 @@
+capoo_back_046.png
+size:332,212
+filter:Linear,Linear
+scale:0.5
+capoo_back_046_1
+bounds:2,7,239,203
+capoo_back_046_2
+bounds:243,56,78,53
+capoo_back_046_3
+bounds:243,2,53,52
+capoo_back_046_4
+bounds:243,111,86,99

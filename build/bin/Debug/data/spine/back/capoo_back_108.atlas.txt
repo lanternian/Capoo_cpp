@@ -1,0 +1,12 @@
+capoo_back_108.png
+size:380,200
+filter:Linear,Linear
+scale:0.5
+capoo_back_108
+bounds:2,2,315,196
+capoo_back_108_1
+bounds:319,124,74,53
+rotate:90
+capoo_back_108_2
+bounds:319,52,70,56
+rotate:90

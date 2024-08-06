@@ -1,0 +1,6 @@
+capoo_clothes_074.png
+size:132,68
+filter:Linear,Linear
+scale:0.5
+capoo_clothes_074
+bounds:2,2,125,61

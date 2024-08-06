@@ -1,0 +1,23 @@
+capoo_basic_036.png
+	size: 512, 512
+	filter: Linear, Linear
+	scale: 0.5
+body_idle
+	bounds: 2, 213, 431, 290
+	offsets: 17, 38, 448, 336
+capoo_back_032_a
+	bounds: 2, 33, 153, 25
+capoo_back_032_b
+	bounds: 435, 413, 49, 90
+capoo_back_032_c
+	bounds: 2, 60, 243, 151
+face_eat
+	bounds: 247, 128, 49, 83
+foot_idle_1
+	bounds: 435, 351, 40, 60
+foot_idle_2
+	bounds: 247, 66, 40, 60
+speed_02
+	bounds: 2, 2, 99, 29
+speed_03
+	bounds: 298, 176, 65, 35

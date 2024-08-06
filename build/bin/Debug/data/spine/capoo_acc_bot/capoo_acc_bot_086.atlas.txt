@@ -1,0 +1,8 @@
+capoo_acc_bot_086.png
+size:232,196
+filter:Linear,Linear
+scale:0.5
+capoo_acc_bot_086_1
+bounds:2,2,99,191
+capoo_acc_bot_086_2
+bounds:103,33,124,160

@@ -1,0 +1,7 @@
+capoo_back_037.png
+size:160,160
+filter:Linear,Linear
+scale:0.5
+capoo_back_037
+bounds:2,2,153,153
+offsets:2,1,158,154

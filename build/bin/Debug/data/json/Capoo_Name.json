@@ -1,0 +1,632 @@
+[
+  {
+    "collectID": "capoo_001",
+    "en": "Capoo",
+    "zh_tw": "咖波"
+  },
+  {
+    "collectID": "capoo_002",
+    "en": "Hairdressing Capoo",
+    "zh_tw": "美髮咖波"
+  },
+  {
+    "collectID": "capoo_003",
+    "en": "Duck Hat Capoo",
+    "zh_tw": "鴨帽咖波"
+  },
+  {
+    "collectID": "capoo_004",
+    "en": "Tennis Capoo",
+    "zh_tw": "網球咖波"
+  },
+  {
+    "collectID": "capoo_005",
+    "en": "Pirate Capoo",
+    "zh_tw": "海盜咖波"
+  },
+  {
+    "collectID": "capoo_006",
+    "en": "Xmas Capoo",
+    "zh_tw": "聖誕咖波"
+  },
+  {
+    "collectID": "capoo_007",
+    "en": "Helmet Capoo",
+    "zh_tw": "安全帽咖波"
+  },
+  {
+    "collectID": "capoo_008",
+    "en": "Construction Capoo",
+    "zh_tw": "工地咖波"
+  },
+  {
+    "collectID": "capoo_009",
+    "en": "Little Red Riding Hood Capoo",
+    "zh_tw": "小紅帽咖波"
+  },
+  {
+    "collectID": "capoo_010",
+    "en": "Record Player Capoo",
+    "zh_tw": "唱片機咖波"
+  },
+  {
+    "collectID": "capoo_011",
+    "en": "Painter Capoo",
+    "zh_tw": "畫家咖波"
+  },
+  {
+    "collectID": "capoo_012",
+    "en": "Bag Capoo",
+    "zh_tw": "包包咖波"
+  },
+  {
+    "collectID": "capoo_013",
+    "en": "Warrior Capoo",
+    "zh_tw": "戰士咖波"
+  },
+  {
+    "collectID": "capoo_014",
+    "en": "Wing Capoo",
+    "zh_tw": "翅膀咖波"
+  },
+  {
+    "collectID": "capoo_015",
+    "en": "Magician Capoo",
+    "zh_tw": "魔法師咖波"
+  },
+  {
+    "collectID": "capoo_016",
+    "en": "Coffee Shop Capoo",
+    "zh_tw": "咖啡店員咖波"
+  },
+  {
+    "collectID": "capoo_017",
+    "en": "Chef Capoo",
+    "zh_tw": "廚師咖波"
+  },
+  {
+    "collectID": "capoo_018",
+    "en": "Gardener Capoo",
+    "zh_tw": "園丁咖波"
+  },
+  {
+    "collectID": "capoo_019",
+    "en": "Shu Shi Master Capoo",
+    "zh_tw": "壽司師傅咖波"
+  },
+  {
+    "collectID": "capoo_020",
+    "en": "La La House Capoo",
+    "zh_tw": "拉拉屋咖波"
+  },
+  {
+    "collectID": "capoo_021",
+    "en": "Handsome Capoo",
+    "zh_tw": "帥哥咖波"
+  },
+  {
+    "collectID": "capoo_022",
+    "en": "Cargo Capoo",
+    "zh_tw": "貨運咖波"
+  },
+  {
+    "collectID": "capoo_023",
+    "en": "Baseball Capoo",
+    "zh_tw": "棒球咖波"
+  },
+  {
+    "collectID": "capoo_024",
+    "en": "Mailman Capoo",
+    "zh_tw": "郵差咖波"
+  },
+  {
+    "collectID": "capoo_025",
+    "en": "Pajamas Capoo",
+    "zh_tw": "睡衣咖波"
+  },
+  {
+    "collectID": "capoo_026",
+    "en": "Bangs Capoo",
+    "zh_tw": "瀏海咖波"
+  },
+  {
+    "collectID": "capoo_027",
+    "en": "Dentist Capoo",
+    "zh_tw": "牙醫咖波"
+  },
+  {
+    "collectID": "capoo_028",
+    "en": "Dessert Capoo",
+    "zh_tw": "甜點店員咖波"
+  },
+  {
+    "collectID": "capoo_029",
+    "en": "Graduate Capoo",
+    "zh_tw": "畢業生咖波"
+  },
+  {
+    "collectID": "capoo_030",
+    "en": "Pizza Capoo",
+    "zh_tw": "披薩店員咖波"
+  },
+  {
+    "collectID": "capoo_031",
+    "en": "Camping Capoo",
+    "zh_tw": "露營咖波"
+  },
+  {
+    "collectID": "capoo_032",
+    "en": "Outdoor Capoo",
+    "zh_tw": "凹豆咖波"
+  },
+  {
+    "collectID": "capoo_033",
+    "en": "Sleeping Bag Capoo",
+    "zh_tw": "睡袋咖波"
+  },
+  {
+    "collectID": "capoo_034",
+    "en": "King Capoo",
+    "zh_tw": "國王咖波"
+  },
+  {
+    "collectID": "capoo_035",
+    "en": "Dog Dog Capoo",
+    "zh_tw": "狗狗咖波"
+  },
+  {
+    "collectID": "capoo_036",
+    "en": "Grinder Bugcat",
+    "zh_tw": "磨豆機貓蟲"
+  },
+  {
+    "collectID": "capoo_037",
+    "en": "Football Capoo",
+    "zh_tw": "足球咖波"
+  },
+  {
+    "collectID": "capoo_038",
+    "en": "Goalkeeper Capoo",
+    "zh_tw": "守門員咖波"
+  },
+  {
+    "collectID": "capoo_039",
+    "en": "Christmas Capoo with turkey leg　",
+    "zh_tw": "火雞腿聖誕咖波"
+  },
+  {
+    "collectID": "capoo_040",
+    "en": "Christmas Tree Capoo",
+    "zh_tw": "聖誕樹咖波"
+  },
+  {
+    "collectID": "capoo_041",
+    "en": "Christmas Capoo with hand belling",
+    "zh_tw": "手搖鈴聖誕咖波"
+  },
+  {
+    "collectID": "capoo_042",
+    "en": "Warm Hand Capoo",
+    "zh_tw": "暖手手咖波"
+  },
+  {
+    "collectID": "capoo_043",
+    "en": "Remote Capoo",
+    "zh_tw": "遙控咖波"
+  },
+  {
+    "collectID": "capoo_044",
+    "en": "Strawberry Bugcat",
+    "zh_tw": "草莓貓蟲"
+  },
+  {
+    "collectID": "capoo_045",
+    "en": "Red Envelop Capoo",
+    "zh_tw": "紅包咖波"
+  },
+  {
+    "collectID": "capoo_046",
+    "en": "Firecracker Capoo",
+    "zh_tw": "鞭炮咖波"
+  },
+  {
+    "collectID": "capoo_047",
+    "en": "Celebrating Capoo",
+    "zh_tw": "慶祝咖波"
+  },
+  {
+    "collectID": "capoo_048",
+    "en": "Lantern Capoo",
+    "zh_tw": "元宵燈籠咖波"
+  },
+  {
+    "collectID": "capoo_049",
+    "en": "Rich Capoo",
+    "zh_tw": "有錢咖波"
+  },
+  {
+    "collectID": "capoo_050",
+    "en": "Salmon Sushi Capoo",
+    "zh_tw": "鮭魚壽司貓蟲"
+  },
+  {
+    "collectID": "capoo_051",
+    "en": "Rabbit Capoo",
+    "zh_tw": "兔兔咖波"
+  },
+  {
+    "collectID": "capoo_052",
+    "en": "Coffee Cup Capoo",
+    "zh_tw": "咖啡杯咖波"
+  },
+  {
+    "collectID": "capoo_053",
+    "en": "Chicken Lantern Capoo",
+    "zh_tw": "小雞燈籠咖波"
+  },
+  {
+    "collectID": "capoo_054",
+    "en": "Sweet Dumpling Capoo",
+    "zh_tw": "元宵湯圓咖波"
+  },
+  {
+    "collectID": "capoo_055",
+    "en": "Valentine's Day Chocolate Capoo",
+    "zh_tw": "情人節巧克力咖波"
+  },
+  {
+    "collectID": "capoo_056",
+    "en": "Chocolate Stick Capoo",
+    "zh_tw": "巧克力棒咖波"
+  },
+  {
+    "collectID": "capoo_057",
+    "en": "Auspicious Capoo",
+    "zh_tw": "吉祥咖波"
+  },
+  {
+    "collectID": "capoo_058",
+    "en": "Black Bugcat",
+    "zh_tw": "黑貓蟲"
+  },
+  {
+    "collectID": "capoo_059",
+    "en": "Black Bugcat Baby",
+    "zh_tw": "黑貓蟲寶寶"
+  },
+  {
+    "collectID": "capoo_060",
+    "en": "Grass Capoo",
+    "zh_tw": "小草咖波"
+  },
+  {
+    "collectID": "capoo_061",
+    "en": "Cupid Capoo",
+    "zh_tw": "邱比特咖波"
+  },
+  {
+    "collectID": "capoo_062",
+    "en": "Thumbs Up Capoo",
+    "zh_tw": "讚讚咖波"
+  },
+  {
+    "collectID": "capoo_063",
+    "en": "Poo Stick Capoo",
+    "zh_tw": "便便棒咖波"
+  },
+  {
+    "collectID": "capoo_064",
+    "en": "Tamagoyaki Sushi Bugcat",
+    "zh_tw": "玉子燒壽司貓蟲"
+  },
+  {
+    "collectID": "capoo_065",
+    "en": "Mosquito Bugcat",
+    "zh_tw": "蚊子貓蟲"
+  },
+  {
+    "collectID": "capoo_066",
+    "en": "Pearl Milk Tea Capoo",
+    "zh_tw": "珍珠奶茶咖波"
+  },
+  {
+    "collectID": "capoo_067",
+    "en": "Earth Capoo",
+    "zh_tw": "地球咖波"
+  },
+  {
+    "collectID": "capoo_068",
+    "en": "Blue Bear Capoo",
+    "zh_tw": "藍熊咖波"
+  },
+  {
+    "collectID": "capoo_069",
+    "en": "Study Capoo",
+    "zh_tw": "讀書咖波"
+  },
+  {
+    "collectID": "capoo_070",
+    "en": "Feel ghost Capoo",
+    "zh_tw": "感覺有鬼咖波"
+  },
+  {
+    "collectID": "capoo_071",
+    "en": "Apple Bugcat",
+    "zh_tw": "蘋果貓蟲"
+  },
+  {
+    "collectID": "capoo_072",
+    "en": "Pineapple Bugcat",
+    "zh_tw": "鳳梨貓蟲"
+  },
+  {
+    "collectID": "capoo_073",
+    "en": "Office Worker Capoo",
+    "zh_tw": "上班族咖波"
+  },
+  {
+    "collectID": "capoo_074",
+    "en": "Flowers Capoo",
+    "zh_tw": "花花咖波"
+  },
+  {
+    "collectID": "capoo_075",
+    "en": "Toy Mallet Capoo",
+    "zh_tw": "玩具槌咖波"
+  },
+  {
+    "collectID": "capoo_076",
+    "en": "Rich Rich Capoo",
+    "zh_tw": "富翁咖波"
+  },
+  {
+    "collectID": "capoo_077",
+    "en": "Ragdoll Capoo",
+    "zh_tw": "布娃娃咖波"
+  },
+  {
+    "collectID": "capoo_078",
+    "en": "Capoo Fish",
+    "zh_tw": "咖波魚"
+  },
+  {
+    "collectID": "capoo_079",
+    "en": "Watermelon Bugcat",
+    "zh_tw": "西瓜貓蟲"
+  },
+  {
+    "collectID": "capoo_080",
+    "en": "Rice Dumplings Capoo",
+    "zh_tw": "粽子咖波"
+  },
+  {
+    "collectID": "capoo_081",
+    "en": "Police Capoo",
+    "zh_tw": "警察咖波"
+  },
+  {
+    "collectID": "capoo_082",
+    "en": "Colorful Capoo",
+    "zh_tw": "色色咖波"
+  },
+  {
+    "collectID": "capoo_083",
+    "en": "Student Capoo",
+    "zh_tw": "學生咖波"
+  },
+  {
+    "collectID": "capoo_084",
+    "en": "E-Sports Capoo",
+    "zh_tw": "電競咖波"
+  },
+  {
+    "collectID": "capoo_085",
+    "en": "Meaty Bugcat",
+    "zh_tw": "肉肉貓蟲"
+  },
+  {
+    "collectID": "capoo_086",
+    "en": "Mika Bon Capoo",
+    "zh_tw": "咪卡融合咖波"
+  },
+  {
+    "collectID": "capoo_087",
+    "en": "Clover Capoo",
+    "zh_tw": "幸運草咖波"
+  },
+  {
+    "collectID": "capoo_088",
+    "en": "Gentleman Capoo",
+    "zh_tw": "紳士咖波"
+  },
+  {
+    "collectID": "capoo_089",
+    "en": "Pauper Capoo",
+    "zh_tw": "窮鬼咖波"
+  },
+  {
+    "collectID": "capoo_090",
+    "en": "Moldy Capoo",
+    "zh_tw": "發霉咖波"
+  },
+  {
+    "collectID": "capoo_091",
+    "en": "Low Presence Capoo",
+    "zh_tw": "低存在感咖波"
+  },
+  {
+    "collectID": "capoo_092",
+    "en": "Airplane Bugcat",
+    "zh_tw": "飛機貓蟲"
+  },
+  {
+    "collectID": "capoo_093",
+    "en": "Zombie Bugcat",
+    "zh_tw": "殭屍貓蟲"
+  },
+  {
+    "collectID": "capoo_094",
+    "en": "Moustache Capoo",
+    "zh_tw": "鬍子咖波"
+  },
+  {
+    "collectID": "capoo_095",
+    "en": "Taoist Priest Capoo",
+    "zh_tw": "道士咖波"
+  },
+  {
+    "collectID": "capoo_096",
+    "en": "Watermelon Capoo",
+    "zh_tw": "西瓜咖波"
+  },
+  {
+    "collectID": "capoo_097",
+    "en": "Unfortunate Ghost Capoo",
+    "zh_tw": "冤鬼咖波"
+  },
+  {
+    "collectID": "capoo_098",
+    "en": "Baby's Bottle Capoo",
+    "zh_tw": "奶瓶咖波"
+  },
+  {
+    "collectID": "capoo_099",
+    "en": "Bee Bugcat",
+    "zh_tw": "蜜蜂咖波"
+  },
+  {
+    "collectID": "capoo_100",
+    "en": "Wine Bugcat",
+    "zh_tw": "葡萄酒貓蟲"
+  },
+  {
+    "collectID": "capoo_101",
+    "en": "Grapefruit Capoo",
+    "zh_tw": "柚子咖波"
+  },
+  {
+    "collectID": "capoo_102",
+    "en": "Soldier Capoo",
+    "zh_tw": "士兵咖波"
+  },
+  {
+    "collectID": "capoo_103",
+    "en": "Genius Capoo",
+    "zh_tw": "天才咖波"
+  },
+  {
+    "collectID": "capoo_104",
+    "en": "Black Cap Capoo",
+    "zh_tw": "黑帽咖波"
+  },
+  {
+    "collectID": "capoo_105",
+    "en": "White Cap Capoo",
+    "zh_tw": "白帽咖波"
+  },
+  {
+    "collectID": "capoo_106",
+    "en": "Grim Reaper Bugcat",
+    "zh_tw": "死神貓蟲"
+  },
+  {
+    "collectID": "capoo_107",
+    "en": "Demon Bugcat",
+    "zh_tw": "惡魔貓蟲"
+  },
+  {
+    "collectID": "capoo_108",
+    "en": "Jack-o'-lantern Capoo",
+    "zh_tw": "南瓜帽咖波"
+  },
+  {
+    "collectID": "capoo_109",
+    "en": "Wizard Capoo",
+    "zh_tw": "巫婆咖波"
+  },
+  {
+    "collectID": "capoo_110",
+    "en": "Play Ghost Capoo",
+    "zh_tw": "裝鬼咖波"
+  },
+  {
+    "collectID": "capoo_111",
+    "en": "Exorcist Capoo",
+    "zh_tw": "驅魔師咖波"
+  },
+  {
+    "collectID": "capoo_112",
+    "en": "Coffee Shop Capoo",
+    "zh_tw": "咖啡店員咖波"
+  },
+  {
+    "collectID": "capoo_113",
+    "en": "Astronaut Capoo",
+    "zh_tw": "太空咖波"
+  },
+  {
+    "collectID": "capoo_114",
+    "en": "Hot Dog Bugcat",
+    "zh_tw": "熱狗堡貓蟲"
+  },
+  {
+    "collectID": "capoo_115",
+    "en": "Thermal Clothing Capoo",
+    "zh_tw": "保暖衣咖波"
+  },
+  {
+    "collectID": "capoo_116",
+    "en": "Seek to take care Capoo",
+    "zh_tw": "領養咖波"
+  },
+  {
+    "collectID": "capoo_117",
+    "en": "Gas Mask Capoo",
+    "zh_tw": "防毒面具咖波"
+  },
+  {
+    "collectID": "capoo_118",
+    "en": "Crane Capoo",
+    "zh_tw": "鶴咖波"
+  },
+  {
+    "collectID": "capoo_119",
+    "en": "Battery Bugcat",
+    "zh_tw": "電池貓蟲"
+  },
+  {
+    "collectID": "capoo_120",
+    "en": "Fried Chicken Bugcat",
+    "zh_tw": "炸雞貓蟲"
+  },
+  {
+    "collectID": "capoo_121",
+    "en": "X'mas Tree Capoo",
+    "zh_tw": "聖誕樹咖波"
+  },
+  {
+    "collectID": "capoo_122",
+    "en": "Party Animal Capoo",
+    "zh_tw": "派對咖咖波"
+  },
+  {
+    "collectID": "capoo_123",
+    "en": "Ribbon Capoo",
+    "zh_tw": "緞帶咖波"
+  },
+  {
+    "collectID": "capoo_124",
+    "en": "Snowboard Capoo",
+    "zh_tw": "滑雪板咖波"
+  },
+  {
+    "collectID": "capoo_125",
+    "en": "Sky Lantern Capoo",
+    "zh_tw": "平安燈咖波"
+  },
+  {
+    "collectID": "capoo_126",
+    "en": "Brocoli Bugcat",
+    "zh_tw": "花椰菜貓蟲"
+  }
+]

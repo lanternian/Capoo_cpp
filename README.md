@@ -1,1 +1,1 @@
-# capoo
+# CapooPals

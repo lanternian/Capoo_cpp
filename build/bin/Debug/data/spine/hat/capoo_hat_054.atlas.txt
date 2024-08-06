@@ -1,0 +1,15 @@
+capoo_hat_054.png
+size:392,112
+filter:Linear,Linear
+scale:0.5
+capoo_hat_054_1
+bounds:2,2,165,108
+capoo_hat_054_2
+bounds:169,11,99,83
+rotate:90
+capoo_hat_054_3
+bounds:254,17,93,78
+rotate:90
+capoo_hat_054_4
+bounds:334,54,56,55
+rotate:90

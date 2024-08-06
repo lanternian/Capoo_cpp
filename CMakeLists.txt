@@ -1,50 +1,33 @@
 cmake_minimum_required(VERSION 3.10)
 
+set(PROJECT_NAME CapooPals)
 
-# 项目名称和版本
-project(DesktopPet)
+project(${PROJECT_NAME})
 
-# 设置C++标准
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# 设置输出路径
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-# 设置SFML的根目录和导入库路径
-set(SFML_ROOT "${CMAKE_SOURCE_DIR}/SFML-2.6.1")
-set(SFML_INCLUDE_DIR "${SFML_ROOT}/include")
-set(SFML_LIBRARY_DIR "${SFML_ROOT}/lib")
+option(BUILD_SHARED_LIBS "Build shared libraries" OFF)
 
+include(FetchContent)
+FetchContent_Declare(SFML
+    GIT_REPOSITORY https://github.com/SFML/SFML.git
+    GIT_TAG 2.6.x)
+FetchContent_MakeAvailable(SFML)
 
+file(GLOB THIRD_PARTY_SOURCES "3party/**/*.cpp")
+file(GLOB MY_SOURCES "src/*.cpp")
+set(SRC ${THIRD_PARTY_SOURCES} ${MY_SOURCES})
+add_executable(${PROJECT_NAME} ${SRC})
 
-# 添加项目的源文件
-add_subdirectory(spine-cpp)
-add_subdirectory(spine-sfml-cpp)
+target_include_directories(${PROJECT_NAME} PUBLIC include)
 
-add_executable(DesktopPet src/loadCapoo.cpp)
-
-target_link_libraries(DesktopPet spine-cpp spine-sfml-cpp)
-
-# 添加包含目录
-target_include_directories(DesktopPet PUBLIC ${SFML_INCLUDE_DIR})
-
-# 链接库到目标文件
-target_link_libraries(DesktopPet $<$<CONFIG:Debug>:${SFML_LIBRARY_DIR}/sfml-main-d.lib> $<$<CONFIG:Release>:${SFML_LIBRARY_DIR}/sfml-main.lib>)
-target_link_libraries(DesktopPet $<$<CONFIG:Debug>:${SFML_LIBRARY_DIR}/sfml-graphics-s-d.lib> $<$<CONFIG:Release>:${SFML_LIBRARY_DIR}/sfml-graphics-s.lib>)
-target_link_libraries(DesktopPet $<$<CONFIG:Debug>:${SFML_LIBRARY_DIR}/sfml-window-s-d.lib> $<$<CONFIG:Release>:${SFML_LIBRARY_DIR}/sfml-window-s.lib>)
-target_link_libraries(DesktopPet $<$<CONFIG:Debug>:${SFML_LIBRARY_DIR}/sfml-system-s-d.lib> $<$<CONFIG:Release>:${SFML_LIBRARY_DIR}/sfml-system-s.lib>)
-
-target_link_libraries(DesktopPet ${SFML_LIBRARY_DIR}/freetype.lib)
-target_link_libraries(DesktopPet opengl32)
-target_link_libraries(DesktopPet gdi32)
-target_link_libraries(DesktopPet winmm)
-
-add_definitions(-DSFML_STATIC)
+target_link_libraries(${PROJECT_NAME} sfml-graphics sfml-main sfml-window)
 
 # copy data to build directory
-add_custom_command(TARGET DesktopPet
+add_custom_command(TARGET ${PROJECT_NAME}
 		COMMAND ${CMAKE_COMMAND} -E copy_directory
-		${CMAKE_CURRENT_LIST_DIR}/data $<TARGET_FILE_DIR:DesktopPet>/data)
+		${CMAKE_CURRENT_LIST_DIR}/data $<TARGET_FILE_DIR:${PROJECT_NAME}>/data)
 
-# add_custom_command(TARGET DesktopPet POST_BUILD COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/Debug/DesktopPet.exe)

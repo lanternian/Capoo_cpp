@@ -1,0 +1,6 @@
+capoo_acc_body_108.png
+size:124,100
+filter:Linear,Linear
+scale:0.5
+capoo_back_108_3
+bounds:2,2,117,94

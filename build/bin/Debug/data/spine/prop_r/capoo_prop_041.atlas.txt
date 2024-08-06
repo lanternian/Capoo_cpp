@@ -1,0 +1,17 @@
+capoo_prop_041.png
+size:144,144
+filter:Linear,Linear
+scale:0.5
+capoo_prop_041
+bounds:2,56,75,83
+capoo_prop_041_1
+bounds:2,2,52,69
+rotate:90
+capoo_prop_041_2
+bounds:73,2,52,69
+rotate:90
+capoo_prop_041_3
+bounds:79,93,46,49
+rotate:90
+capoo_prop_041_4
+bounds:79,61,30,30

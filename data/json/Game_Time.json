@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "GameTime": 5
+  },
+  {
+    "id": 2,
+    "GameTime": 5
+  },
+  {
+    "id": 3,
+    "GameTime": 5
+  },
+  {
+    "id": 4,
+    "GameTime": 5
+  },
+  {
+    "id": 5,
+    "GameTime": 5
+  },
+  {
+    "id": 6,
+    "GameTime": 10
+  },
+  {
+    "id": 7,
+    "GameTime": 10
+  },
+  {
+    "id": 8,
+    "GameTime": 10
+  },
+  {
+    "id": 9,
+    "GameTime": 10
+  },
+  {
+    "id": 10,
+    "GameTime": 10
+  },
+  {
+    "id": 11,
+    "GameTime": 20
+  },
+  {
+    "id": 12,
+    "GameTime": 20
+  },
+  {
+    "id": 13,
+    "GameTime": 20
+  },
+  {
+    "id": 14,
+    "GameTime": 20
+  },
+  {
+    "id": 15,
+    "GameTime": 20
+  },
+  {
+    "id": 16,
+    "GameTime": 120
+  }
+]

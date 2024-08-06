@@ -1,0 +1,14 @@
+capoo_prop_073.png
+size:328,164
+filter:Linear,Linear
+scale:0.5
+capoo_prop_073
+bounds:2,2,159,253
+rotate:90
+capoo_prop_073_1
+bounds:257,92,69,68
+rotate:90
+capoo_prop_073_2
+bounds:257,29,61,60
+offsets:4,4,69,68
+rotate:90

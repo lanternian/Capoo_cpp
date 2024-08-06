@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/program/windows/a/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "D:/program/windows/a/build/_deps/sfml-subbuild/CMakeFiles/4cceb7065ba24921c60e70a1f7d4ccc3/sfml-populate.rule"
+		},
+		{
+			"file" : "D:/program/windows/a/build/_deps/sfml-subbuild/CMakeFiles/7c0f15da75fa06bb70d61b3d3e5d3995/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "D:/program/windows/a/build/_deps/sfml-subbuild/CMakeFiles/c27555f75c462886bcb976169eaa14c8/sfml-populate-build.rule"
+		},
+		{
+			"file" : "D:/program/windows/a/build/_deps/sfml-subbuild/CMakeFiles/c27555f75c462886bcb976169eaa14c8/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "D:/program/windows/a/build/_deps/sfml-subbuild/CMakeFiles/c27555f75c462886bcb976169eaa14c8/sfml-populate-download.rule"
+		},
+		{
+			"file" : "D:/program/windows/a/build/_deps/sfml-subbuild/CMakeFiles/c27555f75c462886bcb976169eaa14c8/sfml-populate-install.rule"
+		},
+		{
+			"file" : "D:/program/windows/a/build/_deps/sfml-subbuild/CMakeFiles/c27555f75c462886bcb976169eaa14c8/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/program/windows/a/build/_deps/sfml-subbuild/CMakeFiles/c27555f75c462886bcb976169eaa14c8/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "D:/program/windows/a/build/_deps/sfml-subbuild/CMakeFiles/c27555f75c462886bcb976169eaa14c8/sfml-populate-test.rule"
+		},
+		{
+			"file" : "D:/program/windows/a/build/_deps/sfml-subbuild/CMakeFiles/c27555f75c462886bcb976169eaa14c8/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}
