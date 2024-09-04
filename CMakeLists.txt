@@ -19,11 +19,11 @@ set(THIRDPARTY_DIRECTORY ${PROJECT_SOURCE_DIR}/3party)
 option(BUILD_SHARED_LIBS "Build shared libraries" ON)
 set(SFML_STATIC_LIBRARIES FALSE)
 
-include(FetchContent)
 FetchContent_Declare(
     SFML
-    SOURCE_DIR ${THIRDPARTY_DIRECTORY}/SFML-2.6.1
-    )
+    GIT_REPOSITORY https://github.com/SFML/SFML.git
+    GIT_TAG 2.6.1  
+)
 FetchContent_MakeAvailable(SFML)
 add_subdirectory(${THIRDPARTY_DIRECTORY}/jsoncpp-1.9.5)
 add_subdirectory(${THIRDPARTY_DIRECTORY}/spine-sfml-4.1.x)
