@@ -46,14 +46,14 @@ void Game::processInput()
             if (event.key.code == sf::Keyboard::Q)
                 mainwindow->close();
             if (event.key.code == sf::Keyboard::B) {
-                printf("�����뿧����ţ���1~126��\n");
-                int id;
-                while (!(std::cin >> id) || id < 1 || id > 126) {
-                    std::cin.clear();
-                    std::cin.ignore(10000, '\n');
-                    std::cout << "������Ч��������һ�����֣�1~126��: ";
-                }
-                // int id = getRandomInt(126) + 1;
+                // printf("�����뿧����ţ���1~126��\n");
+                // int id;
+                // while (!(std::cin >> id) || id < 1 || id > 126) {
+                //     std::cin.clear();
+                //     std::cin.ignore(10000, '\n');
+                //     std::cout << "������Ч��������һ�����֣�1~126��: ";
+                // }
+                int id = getRandomInt(126) + 1;
                 CapooManager::getInstance().add(new CapooEntity(id, sf::Vector2i(getRandomInt(WINDOW_WIDTH), getRandomInt(WINDOW_HEIGHT))));
             } 
 
