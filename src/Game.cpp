@@ -1,15 +1,5 @@
 #include "Game.h"
 
-#include <windows.h>
-
-void TransparentWindow(sf::RenderWindow *window) {
-    // transparent window
-    HWND hWnd = window->getSystemHandle();
-    SetWindowLong(hWnd, GWL_EXSTYLE, GetWindowLong(hWnd, GWL_EXSTYLE) | WS_EX_LAYERED);
-    SetLayeredWindowAttributes(hWnd, RGB(0, 0, 0), 0, LWA_COLORKEY);
-    SetWindowPos(hWnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
-}
-
 namespace
 {
     Game* gameptr;
@@ -20,8 +10,7 @@ Game::Game()
     srand(time(NULL));
     
     gameptr = this;
-    mainwindow = new sf::RenderWindow(sf::VideoMode(WINDOW_WIDTH-1, WINDOW_HEIGHT-1), "Spine SFML - capoo", sf::Style::None);
-    TransparentWindow(mainwindow);
+    mainwindow = new sf::RenderWindow(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Spine SFML - capoo");
     std::cout << "create mainwindow" << std::endl;
 }
 
