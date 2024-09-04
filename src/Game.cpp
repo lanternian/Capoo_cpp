@@ -1,5 +1,15 @@
 #include "Game.h"
 
+#include <windows.h>
+
+void TransparentWindow(sf::RenderWindow *window) {
+    // transparent window
+    HWND hWnd = window->getSystemHandle();
+    SetWindowLong(hWnd, GWL_EXSTYLE, GetWindowLong(hWnd, GWL_EXSTYLE) | WS_EX_LAYERED);
+    SetLayeredWindowAttributes(hWnd, RGB(0, 0, 0), 0, LWA_COLORKEY);
+    SetWindowPos(hWnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
+}
+
 namespace
 {
     Game* gameptr;
@@ -10,7 +20,8 @@ Game::Game()
     srand(time(NULL));
     
     gameptr = this;
-    mainwindow = new sf::RenderWindow(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Spine SFML - capoo", sf::Style::None);
+    mainwindow = new sf::RenderWindow(sf::VideoMode(WINDOW_WIDTH-1, WINDOW_HEIGHT-1), "Spine SFML - capoo", sf::Style::None);
+    TransparentWindow(mainwindow);
     std::cout << "create mainwindow" << std::endl;
 }
 
@@ -42,7 +53,7 @@ void Game::processInput()
         if (event.type == sf::Event::Closed )
             mainwindow->close();
 
-        if (event.type == sf::Event::KeyPressed)
+        if (event.type == sf::Event::KeyPressed) {
             if (event.key.code == sf::Keyboard::Q)
                 mainwindow->close();
             if (event.key.code == sf::Keyboard::B) {
@@ -56,6 +67,7 @@ void Game::processInput()
                 int id = getRandomInt(126) + 1;
                 CapooManager::getInstance().add(new CapooEntity(id, sf::Vector2i(getRandomInt(WINDOW_WIDTH), getRandomInt(WINDOW_HEIGHT))));
             } 
+        }
 
         CapooManager::getInstance().handleInput(event);
             
