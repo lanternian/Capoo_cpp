@@ -19,6 +19,7 @@ set(THIRDPARTY_DIRECTORY ${PROJECT_SOURCE_DIR}/3party)
 option(BUILD_SHARED_LIBS "Build shared libraries" ON)
 set(SFML_STATIC_LIBRARIES FALSE)
 
+include(FetchContent)
 FetchContent_Declare(
     SFML
     GIT_REPOSITORY https://github.com/SFML/SFML.git
