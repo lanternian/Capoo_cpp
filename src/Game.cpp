@@ -7,13 +7,16 @@ namespace
 
 Game::Game()
 {
+    srand(time(NULL));
+    
     gameptr = this;
-    mainwindow = new sf::RenderWindow(sf::VideoMode(640, 640), "Spine SFML - capoo");
+    mainwindow = new sf::RenderWindow(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Spine SFML - capoo", sf::Style::None);
     std::cout << "create mainwindow" << std::endl;
 }
 
 Game::~Game()
 {
+    CapooManager::getInstance().clear();
     delete mainwindow;
     std::cout << "delete mainwindow" << std::endl;
 }
@@ -21,14 +24,12 @@ Game::~Game()
 float Game::getAbsolutTime()
 {
     static sf::Clock clock;
-    float ret = clock.getElapsedTime().asSeconds();
-    clock.restart();
-    return ret;
+    return clock.getElapsedTime().asSeconds();
 }
 
 void Game::init()
 {
-    CapooEntity *a = new CapooEntity();
+    CapooEntity *a = new CapooEntity(1, sf::Vector2i(getRandomInt(WINDOW_WIDTH), getRandomInt(WINDOW_HEIGHT)));
     CapooManager::getInstance().add(a);
 
 }
@@ -38,40 +39,68 @@ void Game::processInput()
     static sf::Event event;
     while (mainwindow->pollEvent(event))
     {
-        if (event.type == sf::Event::Closed)
+        if (event.type == sf::Event::Closed )
             mainwindow->close();
+
+        if (event.type == sf::Event::KeyPressed)
+            if (event.key.code == sf::Keyboard::Q)
+                mainwindow->close();
+            if (event.key.code == sf::Keyboard::B) {
+                printf("�����뿧����ţ���1~126��\n");
+                int id;
+                while (!(std::cin >> id) || id < 1 || id > 126) {
+                    std::cin.clear();
+                    std::cin.ignore(10000, '\n');
+                    std::cout << "������Ч��������һ�����֣�1~126��: ";
+                }
+                // int id = getRandomInt(126) + 1;
+                CapooManager::getInstance().add(new CapooEntity(id, sf::Vector2i(getRandomInt(WINDOW_WIDTH), getRandomInt(WINDOW_HEIGHT))));
+            } 
+
+        CapooManager::getInstance().handleInput(event);
             
     }
 }
 
-void Game::update()
+void Game::update(float deltaTime)
 {
-    lastTime = getAbsolutTime();
-    CapooManager::getInstance().update(lastTime);
 
+    CapooManager::getInstance().update(deltaTime);
 }
 
 void Game::render()
 {
-    mainwindow->clear(sf::Color::White);
+    mainwindow->clear(sf::Color(255, 255, 255, 0));
     CapooManager::getInstance().draw(mainwindow);
     mainwindow->display();
 }
 
 void Game::quit()
 {
+
 }
 
 void Game::startGame()
 {
+    lastTime = getAbsolutTime();
+
     init();
 
-    lastTime = getAbsolutTime();
-    
     while (mainwindow->isOpen())
     {
+        deltaTime = getAbsolutTime() - lastTime;
+        if (deltaTime < 0.008f)
+        {
+        float sleepTime = 1.0f / FPS - deltaTime;
+        sf::sleep(sf::seconds(sleepTime));
+        deltaTime = getAbsolutTime() - lastTime;
+        }
+
+        lastTime = getAbsolutTime();
+        if (deltaTime > 0.05f) deltaTime = 0.05f;
+
         processInput();
-        update();
+        update(deltaTime);
         render();
     }
 
@@ -84,3 +113,4 @@ Game &game()
 {
     return *gameptr;
 }
+
