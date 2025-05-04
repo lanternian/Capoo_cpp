@@ -4,6 +4,7 @@
 #include <SFML/Graphics.hpp>
 #include <spine/spine-sfml.h>
 #include "SpineData.h"
+#include "Constants.h"
 
 class SpineEntity : public spine::SkeletonDrawable
 {
@@ -12,7 +13,9 @@ public:
 
     ~SpineEntity();
 
-    bool setAnimation(spine::String aniname, bool isloop=true);
+    bool setAnimation(size_t trackIndex, const spine::String &aniname, bool isloop);
+
+    bool addAnimation(size_t trackIndex, const spine::String &aniname, bool isloop=true, float delay=0);
 
     bool setSkin(spine::String skinname);
 
@@ -28,9 +31,13 @@ public:
 
     void setScale(sf::Vector2f pos); // absolute scale factor
 
-    void setOrigin(float x, float y);
+    void turnAround(); // for x-axis
 
-    void move(float offsetX, float offsetY);
+    void setDirection(Direction d);
+
+    void setOrigin(const spine::String &boneName);
+
+    void capoomove(float offsetX, float offsetY);
 
     void rotate(float angle);
     
@@ -46,10 +53,15 @@ public:
     
     sf::Vector2f getScale() const;
 
+    sf::FloatRect getBoundingBox() const;
 
+    void setBorderLimited() {isBorderLimited = true;}
 
-
+    sf::Vector2f getOrigin() const;
 private:
+    sf::Vector2f origin;
+    float root2down = 0, root2up, root2left, root2right;
+    bool isBorderLimited = false;
 };
 
 #endif

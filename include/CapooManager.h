@@ -16,14 +16,17 @@ public:
 		return instance;
 	}
 
-    void add(CapooEntity *a);
+    void add(CapooEntity *a = new CapooEntity);
     void clear();
     void update(float deltaTime);
     void draw(sf::RenderWindow *window);
+    void handleInput(sf::Event &event);
 
     typedef std::list<CapooEntity*> CapooList;
 
     CapooList& getList() {return capooList;}
+
+    CapooEntity* cur_capoo;
 
 private:
     CapooManager();

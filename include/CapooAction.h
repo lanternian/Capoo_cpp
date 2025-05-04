@@ -5,35 +5,6 @@
 #include <fstream>
 #include <json/json.h>
 
-enum CapooActionNameKey
-{
-	idle_idle,
-	idle_full,
-	walk,
-	run,
-	wild,
-	roll,
-	air,
-	fall,
-	hit,
-	pet,
-	prone,
-	catchUp,
-	stackFog,
-	stackDown,
-	foodAppear,
-	chew,
-	enjoy,
-	pooing,
-	waitCleanPoo,
-	pooRemoving,
-	pooRemoveAfter,
-	dizzy,
-	summonAppear,
-	recycle,
-	merge
-};
-
 class CapooAction
 {
 public:

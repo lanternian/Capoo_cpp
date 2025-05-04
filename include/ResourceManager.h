@@ -23,16 +23,19 @@ public:
 		return instance;
 	}
 
-	SpineData* addData(Type t, const std::string &name, float scale = 0.5);
-	SpineData* getData(Type t, const std::string &name);
-	bool removeData(Type t, const std::string &name);
+	SpineData* addData(EnumCapooInfo t, const std::string &name, float scale = 0.5);
+	SpineData* getData(EnumCapooInfo t, const std::string &name);
+	bool recapoomoveData(EnumCapooInfo t, const std::string &name);
 	
-
+	sf::Texture& get_feedButton() {return feedButton;}
+	sf::Texture& get_cleanButton() {return cleanButton;}
 private:
 	ResourceManager();
 	~ResourceManager();
 
 	std::unordered_map<std::string, std::unique_ptr<SpineData>> data[TOTAL];
+	sf::Texture feedButton;
+	sf::Texture cleanButton;
 };
 
 #endif

@@ -2,7 +2,11 @@
 
 ResourceManager::ResourceManager()
 {
-
+    std::string feedurl = "data/images/char_talk_food.png", cleanurl = "data/images/char_talk_broom.png";
+    if (!feedButton.loadFromFile(feedurl))
+        throw std::string("Unable to load"+feedurl);
+    if (!cleanButton.loadFromFile(cleanurl))
+        throw std::string("Unable to load"+cleanurl);
 }
 
 ResourceManager::~ResourceManager()
@@ -10,64 +14,64 @@ ResourceManager::~ResourceManager()
 
 }
 
-SpineData* ResourceManager::addData(Type t, const std::string &name, float scale)
+SpineData* ResourceManager::addData(EnumCapooInfo t, const std::string &name, float scale)
 {
     std::string folder;
     switch (t)
     {
-	case Type::BODY:
+	case EnumCapooInfo::BODY:
         folder = "body";
         break;
-	case Type::EFX_BOT:
+	case EnumCapooInfo::EFX_BOT:
         folder = "efx_bot";
         break;
-	case Type::CAPOO_ACC_BOT:
+	case EnumCapooInfo::CAPOO_ACC_BOT:
         folder = "capoo_acc_bot";
         break;
-	case Type::FACE:
+	case EnumCapooInfo::FACE:
         folder = "face";
         break;
-	case Type::FACE_DECORATION:
+	case EnumCapooInfo::FACE_DECORATION:
         folder = "mask";
         break;
-	case Type::HAT:
+	case EnumCapooInfo::HAT:
         folder = "hat";
         break;
-	case Type::CLOTHES:
+	case EnumCapooInfo::CLOTHES:
         folder = "clothes";
         break;
-	case Type::BACK:
+	case EnumCapooInfo::BACK:
         folder = "back";
         break;
-	case Type::RIGHT_HAND_ITEM:
+	case EnumCapooInfo::RIGHT_HAND_ITEM:
         folder = "prop_r";
         break;
-	case Type::MOOD:
+	case EnumCapooInfo::MOOD:
         folder = "mood";
         break;
-	case Type::CAPOO_ACC_BODY:
+	case EnumCapooInfo::CAPOO_ACC_BODY:
         folder = "capoo_acc_body";
         break;
-	case Type::CAPOO_ACC_TOP:
+	case EnumCapooInfo::CAPOO_ACC_TOP:
         folder = "capoo_acc_top";
         break;
-	case Type::EFX_TOP:
+	case EnumCapooInfo::EFX_TOP:
         folder = "efx_top";
         break;
-	case Type::EFX_APPEARS:
+	case EnumCapooInfo::EFX_APPEARS:
         folder = "efx_appear";
         break;
-	case Type::TALK:
-        folder = "talk";
+	case EnumCapooInfo::TALK:
+        folder = "char_talk";
         break;
-	case Type::FOOD:
+	case EnumCapooInfo::FOOD:
         folder = "food";
         break;
-	case Type::POO:
+	case EnumCapooInfo::POO:
         folder = "poo";
         break;   
     default:
-        std::cerr << "Error: Unrecognized Type enum value." << std::endl;
+        std::cerr << "Error: Unrecognized EnumCapooInfo enum value." << std::endl;
         break;
     }
 
@@ -82,18 +86,18 @@ SpineData* ResourceManager::addData(Type t, const std::string &name, float scale
     }
 }
 
-SpineData* ResourceManager::getData(Type t, const std::string &name)
+SpineData* ResourceManager::getData(EnumCapooInfo t, const std::string &name)
 {
     auto& umap = data[t];
     auto it = umap.find(name);
     if (it != umap.end()) {
         return it->second.get();
     } else {
-        return addData(t,name,0.5);
+        return addData(t,name,INIT_SCALE);
     }
 }
 
-bool ResourceManager::removeData(Type t, const std::string &name)
+bool ResourceManager::recapoomoveData(EnumCapooInfo t, const std::string &name)
 {
     auto& umap = data[t];  
     auto it = umap.find(name);  
