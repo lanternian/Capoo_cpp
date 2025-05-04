@@ -14,8 +14,8 @@
 #define CAPOO_POSITION_DELTATIME 1/6
 #define INIT_SCALE 0.4
 #define BUTTON_INIT_SCALE 0.8
-#define BG_R 255
-#define BG_G 255
+#define BG_R 254
+#define BG_G 254
 #define BG_B 254
 enum Direction
 {
